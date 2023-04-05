@@ -41,7 +41,7 @@ JOIN NashvilleHousing b
 WHERE a.PropertyAddress IS NULL
 
 
--- Breaking out Address in to Individual Columns (Address, City, State)
+-- Breaking out Address into Individual Columns (Address, City, State)
 
 SELECT PropertyAddress
 FROM NashvilleHousing
